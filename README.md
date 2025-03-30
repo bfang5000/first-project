@@ -30,6 +30,8 @@ git pull origin main
 # 3）. 执行合并（将 20250329 分支合并到主分支）
 git merge 20250329
 
+# 如果有冲突先手动解决冲突，再执行git add. 
+# git commit -m "feat: resolve conflicts"
 # 4）. 推送合并后的主分支
 git push origin main
 
